@@ -1,3 +1,3 @@
-var price = 9.99;
+let price = 9.99;
 
-showMessage(price);
+showMessage(price++);
