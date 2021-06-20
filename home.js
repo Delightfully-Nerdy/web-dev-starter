@@ -1,5 +1,3 @@
-if (1 != "1") {
-  showMessage("true");
-} else {
-  showMessage("false");
-}
+let price = 20;
+
+price < 10 ? showMessage("yes") : showMessage("no");
