@@ -1,3 +1,3 @@
-let price = 20;
-
-price < 10 ? showMessage("yes") : showMessage("no");
+for (let i = 0; i <= 5; i++) {
+  console.log(i);
+}
