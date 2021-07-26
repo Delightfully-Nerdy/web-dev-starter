@@ -1,3 +1,11 @@
-const containers = document.getElementsByClassName("container");
-// containers[0].classList.add("d-none");
-console.log(containers);
+const app = {
+  productId: 12345,
+  userName: "Joe",
+  orderNumber: 789,
+};
+
+function showProductId() {
+  console.log(app.productId);
+}
+
+showProductId();
