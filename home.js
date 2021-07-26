@@ -1,5 +1,5 @@
-const values = ["a", "b", "c", "d", "e"];
+const values = ["a", "b", "c"];
 
-values.splice(2, 1, "hello");
-
-console.log(values);
+values.forEach(function (item) {
+  console.log(item);
+});
