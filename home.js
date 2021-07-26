@@ -1,3 +1,3 @@
 const values = ["a", "b", "c"];
-values[0] = "aaa";
+values.push("d", "e", "f");
 console.log(values[0]);
