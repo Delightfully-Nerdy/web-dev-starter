@@ -1,13 +1,5 @@
-let productId = 12345;
+"use strict";
 
-function showProductId() {
-  function fix() {
-    console.log("in fix: ", productId);
-  }
+const productId = 1234;
 
-  fix();
-
-  console.log("in showProductId: ", productId);
-}
-
-showProductId();
+console.log(productId);
